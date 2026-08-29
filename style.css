@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 950px;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.titulo-topo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.titulo-bottom {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #4DB8FF;
+    letter-spacing: 2px;
+}
+
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.texto-coluna {
+    flex: 1;
+}
+
+.imagem-coluna {
+    width: 340px;
+    flex-shrink: 0;
+}
+
+.card-imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.section-titulo {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.content-block:first-of-type .section-titulo {
+    margin-top: 0;
+}
+
+.etapa {
+    margin-bottom: 12px;
+}
+
+.etapa-titulo {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+.fluxo-texto {
+    font-size: 0.85rem;
+    color: #a0a0a0;
+    letter-spacing: 0.5px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #cccccc;
+    margin-bottom: 6px;
+}
+
+.bullet-texto {
+    font-weight: 600;
+    color: #e0e0e0;
+}
+
+.formula-texto {
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
